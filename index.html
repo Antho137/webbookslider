@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="utf-8">
+		<meta name="author" content="Antonio N. Sala">
+        <meta name="description" content="Frontend development books">
+        <meta name="keywords" content="Images slider">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Frontend Web Books Slider</title>
+        <link rel="stylesheet" href="./styles/webbookslider.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+		<script src="./scripts/jquery-3.4.1.min.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+        <div class="container-fluid">
+            <div class="row justify-content-sm-center" id="first">	
+                <header class="col-sm-12" id="head">
+                    <h1>Frontend Web Books</h1>
+                </header>	
+            </div>
+            <div class="row justify-content-sm-center" id="second">
+                <main class="col-sm-12" id="main">
+                    <p class="text-center" id="today"></p>
+                    <div id="slide">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">                         
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="5000">
+                                    <img src="./images/wd1.jpg" alt="web design">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/np1.jpg" alt="new perspective">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/js1.jpg" alt="beginning JS">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/hf1.jpg" alt="head first">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/js2.jpg" alt="js web warriors">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/wp1.jpg" alt="web performance">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/wpro.jpg" alt="web programming">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/all.jpg" alt="all in one">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/boot.jpg" alt="bootstrap">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/js3.jpg" alt="modern javascript">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/react.jpg" alt="react hooks">
+                                </div>
+                                <div class="carousel-item" data-interval="5000">
+                                    <img src="./images/react1.jpg" alt="road to react">
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </main>
+            </div>
+            <div class="row justify-content-sm-center">
+                <footer class="col-sm-12" id="foot">
+                    <p>&copy;<span id="year"></span>&#160;FWB&#160;All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+        <script src="./scripts/webbookslider.js"></script>
+    </body>
+</html>	
